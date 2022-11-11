@@ -7,8 +7,7 @@
 - [File_Introduction](#File_Introduction)  
 - [Technology](#Technology)  
 - [Procedure](#Procedure)  
-- [Data Visualization](#Data Visualization)  
-- [Analysis](#Analysis)
+- [Data Visualization and analysis](#Data Visualization and analysis)
 - [Conclusion](#Conclusion)  
 
 ## Overview
