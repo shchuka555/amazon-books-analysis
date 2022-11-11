@@ -145,19 +145,12 @@ This dashboard shows
 
 
 The dashboard shows 
-- differences in estimated revenues between the kindle with and without the x-ray feature.
-- [x-ray](https://www.idownloadblog.com/2021/02/01/x-ray-kindle-paperwhite/)  is a feature that allows the reader to view frequently appearing words and names that make users easy to understand and read books.
-
-The dashboard shows 
 - kindle with x-ray tends to have higher estimated earnings than kindle without it.
-- variance of the estimated earnings is almost identical
-- avg estimated earnings of kindle without x-ray is only 37% of the ones with x-ray
+  -[x-ray](https://www.idownloadblog.com/2021/02/01/x-ray-kindle-paperwhite/)  is a feature that allows the reader to view frequently appearing words and names that make users easy to understand and read books.
+- variances of the estimated earnings with and without x-ray are almost identical.
+- avg estimated earnings of kindle without x-ray is only 37% of the ones with x-ray.
 - the proportion of the datapoint with ad without x-ray is almost 50:50 ratio
-
-This tells kindle with x-ray has higher expected. 
-
-The bottom part of the dashboard shows avg kindle prices among all types of books listed on amazon.
-- Computer& Internet books have the highest average, which is $26.59, and the lowest one is Romance, $5.38 
+- Computer& Internet books have the highest average price, which is $26.59, and the lowest one is Romance, $5.38 
 - Compared with physical books, avg prices are lower and especially literature types of books have low average kindle prices 
   - for example,  physical mystery book
   
