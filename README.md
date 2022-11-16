@@ -75,7 +75,7 @@ Details are in the next section.
 
 ## Data_Visualization_Analysis
 
-### paper books
+### Paper books
 
 #### first dashboard 
 
@@ -152,7 +152,7 @@ this dashboard shows
 
 
 
-### audible 
+### Audible 
 
 
 #### first dashboard 
