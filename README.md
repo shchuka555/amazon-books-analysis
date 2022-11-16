@@ -207,8 +207,8 @@ This dashboard shows
 
 
 ### Conclusion 
-The dashboards tell Amazon should not always rely on the distribution of ratings to see what books are popular and generating a lot of revenue because ranking and rating do not correspond to each other in the range of rank 1 to 100.
-Further analysis is required to test whether or not there is an effect of the 'x-ray' feature on revenue and test statistical significance of differences between ratings of audible in English and French. 
+Amazon should consider the major literature genres like Romance and Mystery&Thriller as unique regarding the relationship between the rating distribution and estimated revenue.
+Further analysis is required to test whether or not there is a causal effect of the 'x-ray' feature on revenue and test the statistical significance of differences between ratings of audible in English and French. 
 
 
 
