@@ -89,7 +89,7 @@ This dashboard shows
   - Low 5-star rating genres have  2 to 3 times more 3 and 4-star ratings on average than high 5-star rating genres although persentage of 1-star ratings on averages are very similar each other. 
 
 
-### second dashboard 
+#### second dashboard 
 ![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books2.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books2.png)
 [link to tableau](https://public.tableau.com/views/books2/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link)  
 
@@ -106,7 +106,7 @@ This dashboard shows
 - My revenue calculation estimates total revenues based on review numbers and prices.   This calculation does not consider ranking at all, which means 
 new books with higher ranking books have lower estimated sales than the lower ranked books but are much older and have more reviews. Therefore, it created different results from our intuition. Higher ranking> more sales.
 
-### third dashboard 
+#### third dashboard 
 ![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books3.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books3.png)
 [link to tableau](https://public.tableau.com/views/books3/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)   
 
@@ -137,7 +137,7 @@ The dashboard shows
   
   
   
- #### second dashboard 
+#### second dashboard 
 
 
 ![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/kindle-2.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/kindle-2.png)
