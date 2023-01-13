@@ -44,6 +44,13 @@ Data visualisation tool
 
 #### first dashboard 
 
+![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/all_genre_sales.png)
+
+- estiamted total sales of books
+-  The estimation was calculated by ( review_number X Price ) / 5. Assuming 5% of customers who purchased a book rated a book.
+- The result is consistent with [a popularity book analysis](https://bubblecow.com/blog/popular-book-genre)
+
+
 #### Figure1: 5_star ratings
 ![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/top_bottom_5_star.png)
 
@@ -62,6 +69,8 @@ Data visualisation tool
 
 
 [link to tableau](https://public.tableau.com/views/amazon_book_analysis_physical_book1/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link)  
+
+
 
 
 
