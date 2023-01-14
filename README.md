@@ -50,31 +50,43 @@ Data visualisation tool.
 - Assuming 5% of customers who purchased a book rated a book, the estimation was calculated by ( review_number X price ) / 5. 
 - The result is generally consistent with [a popularity book analysis](https://bubblecow.com/blog/popular-book-genre)
 
-
 #### Figure2: Percentage of 5_star Ratings.
 ![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/top_bottom_5_star.png)
 - The top 2 5_star rated genres are Comics & Graphic Novels and Children's books. Above 80% of reviews are 5_star for these genres.
 - Romance and Mystery & Thrillers have bottom 2 5_star ratings on average which is around 60%.
 - there are 20% differences between the Top 2 and Bottom 2 book genres.
 
-#### Figure3: Avg Price
+#### Figure3: Avg Rating
+![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/avf_rating.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/avf_rating.png)
+- At the overall rating level, the differences between top and bottom are rouhgly 0.4 star. 
+
+#### Figure4: Avg Price
 ![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/avg_price.png)
 - There is not a clear relationship between book price and 5_star ratings.
 
-#### Figure4: Estimated Total sales of top5 and bottom5 5_star rated genres.
+#### Figure5: Estimated Total sales of top and bottom5 5_star rated genres.
 ![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/avg_sales.png)
 - Clearly, the figure explains that Romance and Mystery & Thrillers are the most popular and top-sold genres despite having the lowest percentage of 5-star ratings among all genres of books.
 
+#### Figure6: Comparison Of ratings Proportions among 4 genres.
+![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/comparison_table.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/comparison_table.png)
+- Compared with Top2 rated genres, Romance and Mystery & Thrillers have roughly double of 2~4 star ratings.
+- If you prefer bar_chart, it is available on dashboard.
 
+### Answer to the question.
+- Q1 What are the top-sold book genres in Canada?
+  - **Top sold books genres are Romance and Mystery & Thrillers, and the scale is relatively bigger than other genres.**
+- **Q2 What book genres have the highest/low 5 stars ratings?
+  - **High 5 stars rated genres are Comics & Graphic Novels, Children's books and Christianity. Above 80% of reviewers gave 5 stars on average.**
+  - **Low 5 stars rated genres are Romance and Mystery & Thrillers. Only 60% of reviewers gave 5 stars on average.**
+- **Q3 Do customer rating and book price affect sales of books?
+  - **Prices do not have a linear relationship with sales of books, but books with high estimated sales tend to be sold at between $10 to $40**
+  - **Ratings do not have a linear relationship with sales. Top-sold genres tend to have 20% fewer 5-star ratings than highly rated genres. It might be plausible to think consumers tend to give harsher feedback on Romance Mystery & Thrillers books than other genres**
 
-
-#### Answer to the question.
-
-
-
+ 
+ 
 ### Conclusion 
-Amazon should consider the major literature genres like Romance and Mystery&Thriller as unique regarding the relationship between the rating distribution and estimated revenue.
-Further analysis is required to test whether or not there is a causal effect of the 'x-ray' feature on revenue and test the statistical significance of differences between ratings of audible in English and French. 
+For further analysis to investigate the reasons why top-sold book genres have the worst percentage of 5-star reviews, sentiment analysis on customer reviews might be a good option because it allows us to know words frequently appearing in low-star reviews.
 
 
 
