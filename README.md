@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Overview](#Overview)  
 - [Questions_to_answer](#Questions_to_answer)
-- [File_Introduction](#File_Introduction)  
+- [Hypothesis](#Hypothesis)
 - [Technology](#Technology)  
 - [Procedure](#Procedure)  
 - [Data_Visualization_Analysis](#Data_Visualization_Analysis)
@@ -11,9 +11,11 @@
 
 ## Overview
 In this project
-- Collected data from Amazon using Python.
-- Cleaned and transformed the data gathered into a more useable form by SQL
-- Used Tableau-public to visualize data.
+- Utilized Python to Collect the top 100 popular book data for each book subcategory on Amazon.ca.
+The data collection was conducted at the end of October 2022. 
+- Cleaned and transformed the data gathered into a more useable and analyzable form by SQL.
+- Filtered and then visualized physical book data on Tableau-public dashboards.
+- Answered the below questions using the dashboards.
 
 ## Questions_to_answer
 - **Q1 What are the top sold book genres in Canada?**
@@ -21,9 +23,9 @@ In this project
 - **Q3 Do customer rating and book price affect sales of books?**
 
 ## Hypothesis
-- **1 My assumption is self-development books are popular.**
-- **2 Best seller books tend to have higher ratings.**
-- **3 Yes, customers nowadays consider ratings on purchasing decision making. For example, restaurants, online shopping and Airbnb.**
+- **1 Self-development books are one of the top-seller genres.**
+- **2 Bestseller books tend to have higher ratings.**
+- **3 Rating is a big purchasing factor for customers nowadays because many people check reviews before buying goods and services. For example, restaurants, online shopping and Airbnb.**
 
 
 ## Technology 
@@ -35,53 +37,39 @@ Programming languages and libraries.
   - Scrapy 
   - Selenium 
  
-Data visualisation tool
+Data visualisation tool.
 - Tableau Public
 
 ## Data_Visualization_Analysis
+[link to tableau for figure 1](https://public.tableau.com/views/amazon_book_analysis_physical_book1/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-### Paper books
+[link to tableau for figure 2~4](https://public.tableau.com/views/amazon_book_analysis_physical_book1/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link) 
 
-#### first dashboard 
-
+#### Figure1: Estimated Total Sales
 ![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/all_genre_sales.png)
-
-- estiamted total sales of books
--  The estimation was calculated by ( review_number X Price ) / 5. Assuming 5% of customers who purchased a book rated a book.
-- The result is consistent with [a popularity book analysis](https://bubblecow.com/blog/popular-book-genre)
+- Assuming 5% of customers who purchased a book rated a book, the estimation was calculated by ( review_number X price ) / 5. 
+- The result is generally consistent with [a popularity book analysis](https://bubblecow.com/blog/popular-book-genre)
 
 
-#### Figure1: 5_star ratings
+#### Figure2: Percentage of 5_star Ratings.
 ![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/top_bottom_5_star.png)
+- The top 2 5_star rated genres are Comics & Graphic Novels and Children's books. Above 80% of reviews are 5_star for these genres.
+- Romance and Mystery & Thrillers have bottom 2 5_star ratings on average which is around 60%.
+- there are 20% differences between the Top 2 and Bottom 2 book genres.
 
-- Comics & Graphic Novels and Children's book have highest 5_star ratings on average.
-- Romance and Mystery & Thrillers have lowest 5_star ratings on average.
-- there are 20% differences between Top2 and Bottom 2 genres of avg proportion of 5_star ratings.
-
-
-
-#### Figure2: AVG Price
+#### Figure3: Avg Price
 ![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/avg_price.png)
+- There is not a clear relationship between book price and 5_star ratings.
 
-- Interestingly Romance and Children's book are quite cheap on average.
-
+#### Figure4: Estimated Total sales of top5 and bottom5 5_star rated genres.
 ![https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/books.png](https://github.com/shchuka555/amazon-books-analysis/blob/main/tableau_dashboard/avg_sales.png)
-
-
-[link to tableau](https://public.tableau.com/views/amazon_book_analysis_physical_book1/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link)  
-
+- Clearly, the figure explains that Romance and Mystery & Thrillers are the most popular and top-sold genres despite having the lowest percentage of 5-star ratings among all genres of books.
 
 
 
 
+#### Answer to the question.
 
-#### Summary
-- Generally, a high average 5-star rating means books have lower 1-star ratings. Some of the exceptions of this trend are Romance and Mystery&Thriller books.
-- Romance and Mystery&Thriller books are pretty unique genres because they generate very high revenues; however, they tend to have very low 5-star ratings compared with other genres of books, but 1-star ratings are also low on average because people tend to give 2 or 3 times more three and 4-stars relative to highly rated books like children's and Religious & Spiritual books. This pattern is observed regardless of the format of books, but the factors of this unique trend are unknown.
-- Book rankings of Amazon do not always correspond with the total revenue of books.
-- kindle with an x-ray feature have much higher revenue than others without the feature but can not conclude that there is a causal effect of x-ray on revenue.
--  Audible length is positively correlated with the price of the audible. This is presumably due to the wages of narrators per book being higher if the audible duration is longer.
--  Audible in English and French have a similar distribution of each rating, but French ones are slightly lower rated on average. Also, French audible has 100 minutes shorter length than English ones on average, but the difference probably does not cause the difference in ratings between the two languages.  Applying appropriate statistical testing methods will determine whether or not the differences between the two languages are significant. 
 
 
 ### Conclusion 
