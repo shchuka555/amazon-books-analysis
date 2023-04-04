@@ -83,8 +83,8 @@ Data visualisation tool.
 ### Conclusion (Answer to the questions)
 - Q1 What are the top-sold book genres in Canada?
   - **Top sold books genres are Romance and Mystery & Thrillers, and the scale is relatively bigger than other genres.**
-- Q2 What book genres have the highest/low 5 stars ratings?
-  - **High 5 stars rated genres are Comics & Graphic Novels, Children's books and Christianity. Above 80% of reviewers gave 5 stars on average.**
+- Q2 What book genres have the high/low 5 stars ratings?
+  - **High 5 stars rated genres are Comics & Graphic Novels, Children's books and Christianity. More than 80% of reviewers gave 5 stars on average.**
   - **Low 5 stars rated genres are Romance and Mystery & Thrillers. Only 60% of reviewers gave 5 stars on average.**
 - Q3 Do customer rating and book price affect sales of books?
   - **Prices do not have a linear relationship with sales of books, but books with high estimated sales tend to be sold at between $10 to $40**
